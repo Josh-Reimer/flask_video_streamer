@@ -32,7 +32,7 @@ class SingleMotionDetector:
 		thresh = cv2.erode(thresh, None, iterations=2)
 		thresh = cv2.dilate(thresh, None, iterations=2)
 
-        # find contours in the thresholded image and initialize the
+		# find contours in the thresholded image and initialize the
 		# minimum and maximum bounding box regions for motion
 		cnts = cv2.findContours(thresh.copy(), cv2.RETR_EXTERNAL,
 			cv2.CHAIN_APPROX_SIMPLE)
