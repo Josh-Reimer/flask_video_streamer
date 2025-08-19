@@ -1,5 +1,5 @@
 # import the necessary packages
-from video_streamer.motion_detection import SingleMotionDetector
+from video_streamer.motion_detection.singlemotiondetector import SingleMotionDetector
 from imutils.video import VideoStream
 from flask import Response
 from flask import Flask
